@@ -1,4 +1,4 @@
-function a=gen_a( M, Delta, theta )
+function a=gen_a(M,Delta,theta)
 gain=1;
 d=length(theta);
 theta_rad=theta/180*pi;% Convert degree into radian
